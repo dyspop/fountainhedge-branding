@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>Fountain Hedge logos</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+    <style type="text/css">
+
+        @import 'https://fonts.googleapis.com/css?family=BioRhyme';
+          body, input, select, textarea {
+            color: #000;
+            font-family: 'BioRhyme', monospace;
+            font-size: 15pt;
+            font-weight: 400;
+            letter-spacing: 0.075em;
+            line-height: 1.65em;
+          }
+        html, body {
+            background: #f1f3f8;
+        }
+        h1, h2, p#body {
+            padding-left:20px;
+        }
+        #randomizer div {width:128px;
+            background: #fcfcfc;
+            padding:10px;
+            margin: 10px;
+            outline:2px solid #fefefe;
+            float:left;
+        }
+        img {
+            width:128px;
+            height:auto;
+            border:1px solid #efefe9;
+
+        }
+        #randomizer div span::after {
+            content: 'Fountain Hedge';
+            margin:0 auto;
+            font-size:9px;
+            text-align: center;
+            margin:0 auto;
+            display: inline-block;
+            width:128px;
+            position: relative;
+            top:-25px;
+            line-height: 0;
+        }
+        #randomizer div p {font-size:9px; font-weight: bold; text-align: center;}
+    </style>
+
+</head>
+
+<body>
+    <h1>Fountain Hedge</h1>
+    <h2>Logo Study</h2>
+    <p id="body">Hover over items for their name</h3>
+    <div id="randomizer">
+        <div data-balloon="happy tree" data-balloon-pos="down">
+            <img src="1.png">
+            <span></span>
+        </div>
+        <div data-balloon="back splash" data-balloon-pos="down">
+            <img src="2.png">
+            <span></span>
+        </div>
+        <div data-balloon="future cat" data-balloon-pos="down">
+            <img src="3.png">
+            <span></span>
+        </div>
+        <div data-balloon="tilt laser" data-balloon-pos="down">
+            <img src="4.png">
+            <span></span>
+        </div>
+        <div data-balloon="the more you know" data-balloon-pos="down">
+            <img src="5.png">
+            <span></span>
+        </div>
+        <div data-balloon="leafy" data-balloon-pos="down">
+            <img src="6.png">
+            <span></span>
+        </div>
+        <div data-balloon="evil eye" data-balloon-pos="down">
+            <img src="7.png">
+            <span></span>
+        </div>
+        <div data-balloon="brain bomb" data-balloon-pos="down">
+            <img src="8.png">
+            <span></span>
+        </div>
+        <div data-balloon="cloud pot" data-balloon-pos="down">
+            <img src="9.png">
+            <span></span>
+        </div>
+        <div data-balloon="fun bear" data-balloon-pos="down">
+            <img src="10.png">
+            <span></span>
+        </div>
+        <div data-balloon="sweet bear" data-balloon-pos="down">
+            <img src="11.png">
+            <span></span>
+        </div>
+        <div data-balloon="fibonacci swirl" data-balloon-pos="down">
+            <img src="12.png">
+            <span></span>
+        </div>
+        <div data-balloon="voltransformer" data-balloon-pos="down">
+            <img src="13.png">
+            <span></span>
+        </div>
+        <div data-balloon="spring meanie" data-balloon-pos="down">
+            <img src="14.png">
+            <span></span>
+        </div>
+        <div data-balloon="coin minima" data-balloon-pos="down">
+            <img src="15.png">
+            <span></span>
+        </div>
+        <div data-balloon="oculus niagara" data-balloon-pos="down">
+            <img src="16.png">
+            <span></span>
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+    $("#randomizer").html($("#randomizer div").sort(function(){
+        return Math.random()-0.5;
+    }));
+</script>
+
+</body>
+</html>
